@@ -26,6 +26,7 @@ h2,
 h3,
 button {
   font-family: var(--headings-font-family);
+  color: var(--primary-text-color);
 }
 
 header {
@@ -65,6 +66,7 @@ button {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 1rem 2rem;
+  background-color: #fff;
 }
 
 .container {
