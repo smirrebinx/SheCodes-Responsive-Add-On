@@ -1,3 +1,98 @@
-h1 {
-  color: red;
+:root {
+  --headings-font-family: "Poppins", sans-serif;
+  --paragraph-font-family: "Poppins", sans-serif;
+  --primary-text-color: #000;
+  --secondary-text-color: #568b7f;
+  --tertiary-text-color: #fff;
+  --primary-background-color: #272044;
+  --secondary-background-color: #94b1aa;
+  --tertiary-background-color: #edfaf7;
+  --btn1-color: #94b1aa;
+  --btn2-color: #f4f6f6;
+  --btn3-color: #fdf6f6;
+  --drop-shadow: drop-shadow(2px 4px 1px rgb(0 0 0 / 0.3));
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+body {
+  margin: 0;
+  background: var(--primary-background-color);
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: var(--headings-font-family);
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/pexels-pipo-stoltz-turning-torso.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 12.5rem 0;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1.875rem;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+button {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.top-text {
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 3.75rem 0;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+  header h2 {
+    font-size: 1.25rem;
+  }
+
+  header h3 {
+    font-size: 1rem;
+  }
 }
