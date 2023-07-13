@@ -33,7 +33,7 @@ header {
     url("../images/pexels-pipo-stoltz-turning-torso.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   color: #fff;
   text-align: center;
   padding: 12.5rem 0;
@@ -82,6 +82,54 @@ button {
   letter-spacing: 5px;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 0.625rem;
+}
+
+footer {
+  color: #fff;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.8)
+    ),
+    url("../images/pexels-pipo-stoltz-turning-torso-footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 6.25rem;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-right: 20px;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: #fff;
+  opacity: 0.7;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 3.75rem 0;
@@ -97,5 +145,24 @@ button {
 
   header h3 {
     font-size: 1rem;
+  }
+
+  footer h3 {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+
+  footer p,
+  a {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+
+  footer {
+    padding: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
