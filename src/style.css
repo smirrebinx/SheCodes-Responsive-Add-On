@@ -97,6 +97,10 @@ button {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
@@ -105,6 +109,10 @@ section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+section.secondary {
+  background: #f8f8f8;
 }
 
 main {
@@ -139,6 +147,37 @@ main p {
   color: var(--secondary-text-color);
   opacity: 0.7;
   margin: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
 }
 
 footer {
@@ -234,7 +273,12 @@ footer a {
   }
 
   .img-responsive {
-  max-width: 90%;
-  height: auto;
-  margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .display-none {
+    display: none;
+  }
 }
