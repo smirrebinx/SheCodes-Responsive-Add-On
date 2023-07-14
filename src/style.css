@@ -71,7 +71,7 @@ button {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 87.5rem;
   margin: 0 auto;
 }
 
@@ -110,12 +110,17 @@ button {
   width: 100%;
   height: auto;
   aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}
+
+.instagram-embeds {
+  margin: 1.875rem 0;
 }
 
 section {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 section.secondary {
@@ -170,23 +175,23 @@ main p {
 }
 
 .card-body {
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .card-footer {
-  padding: 0 30px 30px;
+  padding: 0 1.875rem 1.875rem;
 }
 
 .btn {
   display: block;
   color: white;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 1rem;
+  line-height: 1.313rem;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  padding: 16px;
+  padding: 1rem;
   background-color: #462cb3;
   text-decoration: none;
 }
@@ -206,16 +211,16 @@ footer {
 
 footer h3 {
   font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 }
 
 footer p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   opacity: 0.7;
-  margin-right: 20px;
-  line-height: 24px;
+  margin-right: 1.25rem;
+  line-height: 1.5rem;
 }
 
 footer ul {
