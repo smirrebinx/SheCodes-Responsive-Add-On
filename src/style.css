@@ -29,7 +29,7 @@ button {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url("../images/pexels-pipo-stoltz-turning-torso.jpg");
   background-repeat: no-repeat;
   background-size: cover;
