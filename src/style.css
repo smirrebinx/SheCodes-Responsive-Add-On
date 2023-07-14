@@ -84,6 +84,7 @@ button {
 
 .img-responsive {
   max-width: 100%;
+  height: auto;
   aspect-ratio: 1 / 1;
   display: block;
 }
@@ -107,7 +108,8 @@ button {
 
 .embed {
   width: 100%;
-  aspect-ratio: 1 /1;
+  height: auto;
+  aspect-ratio: 1 / 1;
 }
 
 section {
@@ -192,8 +194,8 @@ main p {
 footer {
   color: var(--tertiary-text-color);
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.8)
+      rgba(39, 32, 68, 0.7),
+      rgba(39, 32, 68, 0.6)
     ),
     url("../images/pexels-pipo-stoltz-turning-torso-footer.jpg");
   background-repeat: no-repeat;
@@ -289,9 +291,5 @@ footer a {
 
   .display-none {
     display: none;
-  }
-
-  .embed {
-    aspect-ratio: 16 / 9;
   }
 }
