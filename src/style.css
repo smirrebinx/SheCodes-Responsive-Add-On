@@ -166,6 +166,7 @@ main p {
 .card {
   background: white;
   margin: 1.875rem 0;
+  filter: var(--drop-shadow);
 }
 
 .card-header.grid {
