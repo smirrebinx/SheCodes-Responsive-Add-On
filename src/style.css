@@ -15,7 +15,7 @@
 }
 
 body {
-  margin: 8px;
+  margin: 0;
   background: var(--primary-background-color);
 }
 
@@ -102,12 +102,12 @@ button:hover {
 .btn2-color:hover {
   background-color: var(--btn1-color);
   color: var(--primary-text-color);
-  border: solid var(--border-color);
+  border: solid rgba(39, 32, 68, 0.4);
   transition: 1s;
 }
 
 .container {
-  max-width: 87.5rem;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -168,7 +168,7 @@ button:hover {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 6.25rem;
+  padding: 30px;
 }
 
 section.secondary {
@@ -333,7 +333,7 @@ footer a {
 
   .grid {
     grid-template-columns: 1fr;
-    padding: 1rem;
+    padding: 0;
   }
 
   .display-none {
