@@ -320,11 +320,14 @@ footer a {
 
   .container {
     padding: 0 1rem;
-    width: 100%;
   }
 
   section.secondary {
     margin: 0;
+  }
+
+  .section {
+    padding: 30px;
   }
 
   .top-text {
@@ -333,7 +336,7 @@ footer a {
 
   .grid {
     grid-template-columns: 1fr;
-    padding: 0;
+    padding: 32px;
   }
 
   .display-none {
