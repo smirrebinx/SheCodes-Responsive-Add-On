@@ -215,7 +215,7 @@ main p {
 
 .card {
   background: var(--tertiary-text-color);
-  margin: 1.875rem 0;
+  margin: 30px 0;
   filter: var(--drop-shadow);
 }
 
@@ -320,7 +320,7 @@ footer a {
 
   .container {
     padding: 0 1rem;
-    width: 100%;
+    width: 65vh;
   }
 
   .section {
@@ -345,13 +345,11 @@ footer a {
   }
 
   .img-responsive {
-    padding: 2rem;
-    width: 90%;
+    width: 100%;
   }
 
   .embed {
     aspect-ratio: 16 / 9;
-    width: fit-content;
     margin: 0 auto;
   }
 
