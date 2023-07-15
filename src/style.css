@@ -323,12 +323,12 @@ footer a {
     width: 100%;
   }
 
-  section.secondary {
-    margin: 0;
-  }
-
   .section {
     padding: 30px;
+  }
+
+  .section-one-div {
+    margin: 2rem;
   }
 
   .top-text {
@@ -342,6 +342,11 @@ footer a {
 
   .display-none {
     display: none;
+  }
+
+  .img-responsive {
+    padding: 2rem;
+    width: 90%;
   }
 
   .embed {
