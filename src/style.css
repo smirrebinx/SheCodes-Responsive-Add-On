@@ -320,6 +320,7 @@ footer a {
 
   .container {
     padding: 0 1rem;
+    width: 100%;
   }
 
   section.secondary {
@@ -336,7 +337,7 @@ footer a {
 
   .grid {
     grid-template-columns: 1fr;
-    padding: 32px;
+    padding: 0;
   }
 
   .display-none {
